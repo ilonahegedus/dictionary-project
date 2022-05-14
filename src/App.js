@@ -10,10 +10,19 @@ function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
-          <Dictionary defaultKeyword="hello" />
+          <Dictionary defaultKeyword="greeting" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Ilona Hegedus</small>
+          <small>
+            Coded by{" "}
+            <a
+              href="https://github.com/ilonahegedus/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Ilona Hegedus
+            </a>
+          </small>
         </footer>
       </div>
     </div>
